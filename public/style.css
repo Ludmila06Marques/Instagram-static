@@ -112,6 +112,9 @@
     height: 611px;
     
 }
+.post:hover{
+    cursor: pointer;
+}
 .usuario{
     display: flex;
    
@@ -186,8 +189,15 @@ strong{
     
 }
 .icone2{
+    visibility: visible;
     font-size: 25px;
     padding: 10px;
+   
+}
+.preenchido{
+  visibility: visible;
+    color: red;
+    
 }
 
 
