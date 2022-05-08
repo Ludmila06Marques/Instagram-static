@@ -1,0 +1,464 @@
+/*  DIV mae do  da pagina        */
+.fixar{
+    position: fixed;
+    
+	top: 0px;
+	left: 0px;
+    width: 100%;
+    z-index: 3;
+    
+}
+.topao{
+  
+    display: flex;
+    background-color: #FFFFFF;
+    height: 54px; 
+    border: 1px solid #DBDBDB;
+}
+.topo{
+    
+    display: flex;
+    margin:0 auto;
+    width: 935px;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+/*Icones da parte esquerda*/
+
+.barrinha{
+    width: 1px;
+    background-color: 
+    #DBDBDB;
+    height: 22px;
+    margin-right: 10px;
+}
+.logo img{
+    width: 103px;
+    height: 29px; 
+}
+
+.logo{
+    display:flex; 
+     align-items: center;
+   
+  
+    
+
+}
+/*Style dos icones*/
+.icone{
+    font-size: 25px;
+    padding: 24px;
+}
+
+/*Parte do meio*/
+.pesquisa{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    box-sizing: border-box;
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border: solid #DBDBDB 1px;
+    border-radius: 3px;
+    color: #979797;
+}
+
+
+/*Icones da parte direita*/
+.acoes{
+    display: flex;
+    
+    }
+/*-------------------------------------*/
+/*DIV mae do conteudo da pagina */
+.resto{
+    background-color: #fafafa;;
+}
+/*parte utilizavel*/
+/*DIV mae de conteudo1+sidebar*/
+.conteudo{
+    
+    display: flex;
+        
+        width: 935px;
+        
+        margin:0 auto;
+        
+     
+ }
+ /*DIV mae de story+post*/
+ .conteudo1{
+
+     width: 614px;
+ }
+ 
+
+
+.post{
+   
+   background-color: 
+   #FFFFFF;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+   
+}
+.post img{
+    width: 611px;
+    height: 611px;
+    
+}
+.usuario{
+    display: flex;
+   
+    height: 61px;
+}
+.perfil{
+    display: flex;
+   
+    height: 61px;
+    width: 554px;
+    align-items: center
+}
+.perfil img{
+   margin-left: 17px;
+    width: 32px;
+    height: 32px;
+    
+}
+.perfil h1{
+    margin-left: 15px;
+    font-family:'Roboto', sans-serif;
+    color: #262626;
+}
+.pontinhos{
+    display: flex;
+    
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+.interacao{
+    display: flex;
+    
+    height: 38px;
+    justify-content: space-between;
+  
+}
+.curtidas{
+    display: flex;
+    height: 38px;
+    align-items: center;
+   
+}
+.curtidas h1{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    color: 
+    #000000;
+
+}
+.curtidas img{
+   width: 20px;
+   height: 20px;
+   margin-left: 10px;
+  margin-right: 10px;
+}
+strong{
+    font-weight: bold;
+}
+.interacao2{
+    display: flex;
+    justify-content: flex-start;
+    
+    height:38px ;
+}
+
+.interacao3{
+   
+    height: 38px;
+    width: 38px;
+    
+}
+.icone2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.sidebar{
+ 
+   
+    margin-top: 88px;
+    width: 321px; 
+    font-family:'Roboto', sans-serif;
+    
+   
+}
+
+
+.partedecima h1{
+    margin-left: 17px;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #262626;
+}
+.titulo h2{
+    
+    font-size: 12px;
+    color: 
+    #8E8E8E;
+}
+.titulo h1{
+    font-size: 12px;
+}
+.titulo{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    width: 321px;
+  
+}
+.sidebar h1{
+    font-weight: lighter;
+    font-size: 14px;
+    color: #262626;
+    
+}
+
+
+/*-------------------------------------*/
+.partedecima{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 28px;
+  
+    
+}
+.partedecima img{
+   
+    width: 56px;
+    height: 56px;
+    
+}
+.partedebaixo{
+    margin-left: 17px;
+}
+
+.pessoas{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    height: 48px;
+    
+    margin-top: 16px;
+}
+
+.pessoas h2{
+    font-size: 11px;
+    color: #8E8E8E;
+}
+
+.pessoas img{
+width: 32px;
+height: 32px;
+}
+.conjunto{
+    display: flex;
+    margin-left: 17px;
+    
+}
+
+
+.seguir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    height: 48px;
+    width: 36px;
+    color: #139EF2;
+    font-size: 12px;
+    
+}
+.textinho{
+    margin-left: 11px;
+}
+.pessoas h3,h3{
+    font-size: 11px;
+    color: #C7C7C7;
+    font-family:'Roboto', sans-serif;
+}
+/*---------------------------------------------*/
+.story{
+    position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        height: 118px;
+        margin-top: 88px;
+        margin-bottom: 24px;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        box-sizing: border-box;
+        border-radius: 3px;
+    
+  
+}
+.scima{
+    position: absolute;
+    display: flex;
+    justify-content: space-between; 
+    z-index: 1;
+    width: 618px;
+    margin-left: 23px;
+    padding: 4px;
+    padding-top: 10px;
+}
+
+.scima img{
+    width: 56px;
+    
+   
+    
+}
+
+
+.s1 h2{
+    font-size: 12px;
+    color: #262626;
+    font-family:'Roboto', sans-serif;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.sbaixo{
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between; 
+    height: 78px;
+    width: 617px;
+    margin-left: 23px;
+}
+.sbaixo img{
+    width: 63px;
+    height: 63px;
+   
+  
+}
+.b1 img{
+    border-radius: 100%;
+}
+
+.setinha{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.seta{
+    width: 30px;
+    height: 30px;
+    color:  #FFFFFF;
+    position:absolute;
+    right:5px;
+    z-index: 2;
+}
+/*------------------------------------*/
+.topomobile{
+    display: none;
+}
+.barrabaixamobile{
+    display: none;
+    
+}
+
+/*---------------------------------*/
+
+@media (max-width:935px){
+    .body{
+        width: 100%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .conteudo{
+        width: 100%;
+        justify-content: center;
+    }
+  }
+  
+
+  @media (max-width:614px){
+
+    .body{
+        width: 100%;
+    }
+    .seta,.compass,.person,.heart,.barrinha,.pesquisa,.topo{
+        display: none;  }
+      
+    .conteudo{
+        width: 100%;
+        justify-content: center;
+    }
+    .conteudo1{
+        width: 100%;
+    }
+   
+      .topao{
+          width: 100%;
+        display: block;
+       
+    } 
+     .topomobile {
+         width: 100%;
+          display: flex;
+           justify-content: space-between;
+           align-items: center;
+           z-index: 1;
+           }
+    .story{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom:0px ;
+        background-color: inherit;
+    }
+   
+    .post{
+        width: 100%;
+    }
+    .capivara{
+        width: 100%;
+    }
+    
+    .usuario{
+        width: 100%;
+    }
+    img.alice{
+        width: 100%;
+    }
+         
+    .barrabaixamobile{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 55px;
+        background-color: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+    }
+    .s1 {
+        border-radius: 100%;
+    }
+     
+  }
+ 
