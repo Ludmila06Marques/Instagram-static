@@ -19,7 +19,7 @@ function Usuario(props){
 
  function Imagem(props){
     return(
-        <div class="imagem">
+        <div  class="imagem">
         <img class=" alice" src={props.imagem}/>
         </div>
     )
@@ -32,7 +32,7 @@ export default function PostUnico(props){
         <div class="post"> 
                          
                         <Usuario perfil={props.perfil} nome={props.nome} />
-                        <Imagem imagem={props.imagem}/>
+                        <Imagem  imagem={props.imagem}/>
                         <Interacao />
                         <Curtidas />
         </div> 

@@ -1,4 +1,4 @@
-import Posts from "./Postagem/Posts";
+import Posts from "../Postagem/Posts"
 
 export default function Post(){
     return(

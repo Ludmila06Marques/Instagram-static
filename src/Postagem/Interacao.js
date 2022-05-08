@@ -3,21 +3,20 @@ import React from "react"
 
 export default function Interacao(props){
 
-const [ classButton, setClassButton]= React.useState("icone2")
-const [ nameButton , setNameButton]=React.useState("heart-outline")
 
-function curtir(){
+    const [ classButton, setClassButton]= React.useState("icone2")
+    const [ nameButton , setNameButton]=React.useState("heart-outline")
+    function curtir(){
    
-    if(classButton=="icone2 preenchido" ){
-        setClassButton("icone2 ") 
-        setNameButton("heart-outline")     
-    } else{
-        setClassButton("icone2 preenchido")
-        setNameButton("heart")
+        if(classButton=="icone2 preenchido" ){
+            setClassButton("icone2 ") 
+            setNameButton("heart-outline")     
+        } else{
+            setClassButton("icone2 preenchido")
+            setNameButton("heart")
+        }
+      
     }
-  
-}
-
     return(
         <div class="interacao">
                               

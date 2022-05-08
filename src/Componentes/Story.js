@@ -1,7 +1,7 @@
 
-import Sbaixo from './Stories/Sbaixo'
-import Scima from './Stories/Scima'
-import Setinha from './Stories/Setinha'
+import Sbaixo from  "../Stories/B1"
+import Scima from '../Stories/Scima'
+import Setinha from '../Stories/Setinha'
 
 
 export default function Story(){
