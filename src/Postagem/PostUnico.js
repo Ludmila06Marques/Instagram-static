@@ -1,5 +1,5 @@
 
-
+import React from "react"
 import Interacao from "./Interacao"
 import Curtidas from "./Curtidas"
 
@@ -25,11 +25,26 @@ function Usuario(props){
     )
 }
 
+
 export default function PostUnico(props){
 
+
     
+    const [ classButton, setClassButton]= React.useState("icone2")
+    const [ nameButton , setNameButton]=React.useState("heart-outline")
+   function Curtir(){
+   
+        if(classButton=="icone2 preenchido" ){
+            setClassButton("icone2 ") 
+            setNameButton("heart-outline")     
+        } else{
+            setClassButton("icone2 preenchido")
+            setNameButton("heart")
+        }
+      
+    }
     return(
-        <div class="post"> 
+        <div onClick={Curtir} class="post"> 
                          
                         <Usuario perfil={props.perfil} nome={props.nome} />
                         <Imagem  imagem={props.imagem}/>

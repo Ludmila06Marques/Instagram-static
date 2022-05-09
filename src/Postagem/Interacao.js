@@ -6,7 +6,7 @@ export default function Interacao(props){
 
     const [ classButton, setClassButton]= React.useState("icone2")
     const [ nameButton , setNameButton]=React.useState("heart-outline")
-    function curtir(){
+   function Curtir(){
    
         if(classButton=="icone2 preenchido" ){
             setClassButton("icone2 ") 
@@ -21,7 +21,7 @@ export default function Interacao(props){
         <div class="interacao">
                               
         <div class="interacao2">
-        <ion-icon onClick={curtir}class={classButton} name={nameButton}></ion-icon>
+        <ion-icon onClick={Curtir}class={classButton} name={nameButton}></ion-icon>
             <ion-icon class="icone2"name="chatbubble-outline"></ion-icon>
             <ion-icon class="icone2"name="paper-plane-outline"></ion-icon>
         </div>
